@@ -2,8 +2,8 @@
 
 ## Links
 
-- **Client App:** [Visit Client App](https://link-to-client-app)
-- **Server App:** [Visit Server App](https://link-to-server-app)
+- **Client App:** [Visit Client App](https://rina-full-web.netlify.app)
+- **Server App:** [Visit Server App](https://rina-full-web.vercel.app/)
 
 ## Description
 
