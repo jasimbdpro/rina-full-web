@@ -29,8 +29,8 @@ function App() {
         return response.json();
       })
       .then(data => {
-        console.log('success: ', data.message)
-        console.log('Received data: ', data.data)
+        console.log('Success: ', data.message)
+        console.log('Your sent data: ', data.data)
         // Handle success (e.g., clear form, show message, etc.)
       })
       .catch(error => {

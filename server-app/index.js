@@ -9,7 +9,7 @@ app.post('/', (req, res) => {
     console.log("Received data: ", { name, email, password })
     //Send a response back to client
     res.status(200).json({
-        message: 'Data received successfully',
+        message: 'Your data sent successfully',
         data: { name, email, password }
     })
 })
