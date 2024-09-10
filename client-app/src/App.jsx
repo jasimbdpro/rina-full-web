@@ -45,9 +45,15 @@ function App() {
     <>
       <div>
         <form onSubmit={handleSubmit}>
-          <input type="text" name='name' value={formData.name} onChange={handleChange} />
-          <input type="email" name='email' value={formData.email} onChange={handleChange} />
-          <input type="password" name='password' value={formData.password} onChange={handleChange} />
+          <label>Name:&nbsp;
+            <input type="text" name='name' value={formData.name} onChange={handleChange} />
+          </label>
+          <label>Email:&nbsp;
+            <input type="email" name='email' value={formData.email} onChange={handleChange} />
+          </label>
+          <label>Password:&nbsp;
+            <input type="password" name='password' value={formData.password} onChange={handleChange} />
+          </label>
           <button type="submit">Submit</button>
         </form>
       </div>

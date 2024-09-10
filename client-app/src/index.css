@@ -63,9 +63,18 @@ form {
   justify-content: center;
 }
 
-form>input {
-  margin: 3px 0;
+form>label {
+  margin-top: 3px;
+  text-align: left;
+  width: 0;
 }
+
+form>button {
+  margin-top: 5px;
+  text-align: left;
+
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
