@@ -13,6 +13,9 @@ app.post('/', (req, res) => {
         data: { name, email, password }
     })
 })
+app.get('/', (req, res) => {
+    res.send('API deployed successfully')
+})
 
 
 app.listen(3000, () => {
