@@ -14,7 +14,7 @@ app.post('/', (req, res) => {
     })
 })
 app.get('/', (req, res) => {
-    res.send('API deployed successfully')
+    res.send('API deployed successfully v1')
 })
 
 
