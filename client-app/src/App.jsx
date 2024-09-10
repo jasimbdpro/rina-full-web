@@ -16,7 +16,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch('http://localhost:3000', {
+    fetch('https://rina-full-web.vercel.app/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
