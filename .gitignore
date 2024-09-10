@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore node_modules and build artifacts specific to client-app
+client-app/node_modules/
+server-app/node_modules/
+client-app/dist/
+client-app/dist-ssr/
+
+# Ignore environment and local files specific to client-app
+client-app/*.local
+
+# Editor directories and files
+client-app/.vscode/*
+client-app/.idea
+client-app.DS_Store
+client-app/*.suo
+client-app/*.ntvs*
+client-app/*.njsproj
+client-app/*.sln
+client-app/*.sw?
+
+# Ignore .vscode directory but keep extensions.json in the root of rini-full-web
+.vscode/*
+!.vscode/extensions.json
